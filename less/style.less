@@ -1,0 +1,91 @@
+
+
+@import-once "gallery.less";
+@import-once "news.less";
+@import-once "review.less";
+@import-once "services.less";
+@import-once "main.less";
+@import-once "contact.less";
+
+
+
+
+
+
+
+@font-face {
+  font-family: gothamprolig;
+  src: url('../font/GOTHAPROLIG.OTF');
+}
+@font-face {
+  font-family: gothamprobold;
+  src: url('../font/GOTHAPROBOL.OTF');
+}
+@font-face {
+  font-family: proximabold;
+  src: url('../font/PROXIMA NOVA SEMIBOLD.OTF');
+}
+@font-face {
+  font-family: proximareg;
+  src: url('../font/PROXIMA NOVA REGULAR.OTF');
+}
+@font-face {
+  font-family: unisanscaps;
+  src: url('../font/UNI_SANS_THIN.TTF');
+}
+@font-face {
+  font-family: unisansheavy;
+  src: url('../font/UNI SANS HEAVY.OTF');
+}
+@font-face {
+  font-family: proximanovalight;
+  src: url('../font/PROXIMA NOVA THIN.OTF');
+}
+@font-face {
+  font-family: proxithin;
+  src: url('../font/PROXIMA NOVA CONDENSED THIN.OTF');
+}
+
+
+
+
+
+
+
+html, body {
+  font-size: 100%;
+  height: 100%;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  color: @lightblack;
+}
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: @extra-large-text;
+  font-family: @unisanscaps;
+}
+
+h2 {
+  font-size: @large-text;
+  font-family: @unisanscaps;;
+}
+
+
+.row {
+  .padding-margin-clear();
+}
+
+.container-fluid {
+  .padding-margin-clear();
+}
+.capt {
+  .section-capt();
+}
+
+
+

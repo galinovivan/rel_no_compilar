@@ -1,0 +1,31 @@
+.review-main .col-xs-12 {
+  border-bottom: 1px solid #ebebeb;
+  padding-bottom: 60px;
+  padding-top: 100px;
+  margin-bottom: 150px;
+  background: url('../img/black-chars.png') no-repeat 50% 0% transparent;
+}
+.review-main .review-content p {
+  text-align: center;
+  font-family: 'proximareg';
+  line-height: 1.7;
+}
+.review-main .review-content p:first-child {
+  padding: 0 15%;
+}
+.review-main .review-content p:last-child {
+  padding: 0 20%;
+}
+.review-main .person {
+  text-align: center;
+}
+.review-main .person hr {
+  border-top-color: #000000;
+  width: 150px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.review-main .person img {
+  display: block;
+  margin: 0 auto;
+}

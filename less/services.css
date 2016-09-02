@@ -1,0 +1,25 @@
+.ser-text-content {
+  margin-bottom: 80px;
+}
+.ser-text-content p {
+  line-height: 1.7;
+  text-align: center;
+}
+.ser-text-content p:first-child {
+  padding: 0 15%;
+  font-family: 'proximareg';
+  margin-bottom: 50px;
+}
+.ser-text-content p:nth-child(2) {
+  padding: 0 30%;
+  font-family: 'proximanovalight';
+}
+.services-block .row div {
+  min-height: 265px;
+  max-height: 400px;
+  height: auto;
+  background-position: 19%, 30% !important;
+}
+.main-services {
+  margin-bottom: 130px;
+}

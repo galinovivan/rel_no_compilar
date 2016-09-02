@@ -1,0 +1,53 @@
+.gallery-main img {
+  width: 100%;
+}
+.gallery-main .container-fluid {
+  padding: 0;
+  margin: 0;
+}
+.gallery-main .container-fluid .row {
+  padding: 0;
+  margin: 0;
+}
+.gallery-main .container-fluid .row div {
+  border: 0.5px solid #ffffff;
+  padding: 0;
+  margin: 0;
+  height: 446px;
+}
+.gallery-main .container-fluid .row a:first-of-type div {
+  background: url('../img/gallery-item-1.png') no-repeat;
+  background-size: cover;
+}
+.gallery-main .container-fluid .row a:nth-of-type(2) div {
+  background: url('../img/gallery-item-2.png') no-repeat;
+  background-size: cover;
+}
+.gallery-main .container-fluid .row a:nth-of-type(3) div {
+  background: url('../img/gallery-item-3.png') no-repeat;
+  background-size: cover;
+}
+.gallery-main .container-fluid .row a:nth-of-type(4) div {
+  background: url('../img/gallery-item-4.png') no-repeat;
+  background-size: cover;
+}
+.gallery-main .container-fluid .row a:nth-of-type(5) div {
+  background: url('../img/gallery-item-5.png') no-repeat;
+  background-size: cover;
+}
+.gallery-main .container-fluid .row a:nth-of-type(6) div {
+  background: url('../img/gallery-item-6.png') no-repeat;
+  background-size: cover;
+}
+.gallery-main .container-fluid .row a:nth-of-type(7) div {
+  background: url('../img/gallery-item-1.png') no-repeat;
+  background-size: cover;
+}
+.gallery-main .container-fluid .row a:nth-of-type(8) div {
+  background: url('../img/gallery-item-2.png') no-repeat;
+  background-size: cover;
+}
+.gallery-main .container-fluid .row a:nth-of-type(9) div {
+  background: url('../img/gallery-item-3.png') no-repeat;
+  background-size: cover;
+}

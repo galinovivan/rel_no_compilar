@@ -1,0 +1,180 @@
+
+
+.padding-base() {
+  padding-left: 55px;
+  padding-right: 90px
+}
+.padding-margin-clear(@padding: 0, @margin: 0) {
+  padding: @padding;
+  margin: @margin;
+}
+.center(@justify: center, @items: center) {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: @justify;
+  align-items: @items;
+}
+
+.flex-align(@space: space-between) {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: @space;
+  align-items: center;
+}
+.flex-align-bottom(@align-items: center, @justify-content: space-between) {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: @justify-content;
+  align-items: @align-items;
+}
+
+.btn-style(@padd-top: 10px, @padd-left: 10px, @f-size: @small-size-text, @f-family: @proximonovasembold, @width-btn: 200px) {
+  display: block;
+  padding: @padd-top @padd-left;
+  border: 1px solid #ffffff;
+  font-size: @f-size;
+  font-family: @f-family;
+  width: @width-btn;
+  text-align: center;
+  color: #ffffff;
+  background: transparent;
+  .transition();
+}
+.btn-hover(@color: @white, @background: @color-base) {
+  color: @color !important;
+  background: @background !important;
+}
+
+.background-icon(@url, @position-1, @position-2, @color: transparent) {
+  background: @url no-repeat @position-1 @position-2 @color;
+}
+
+
+.img-gallery(@url) {
+  background: @url no-repeat;
+  background-size: cover;
+}
+
+.pseudo(@width: 65px, @height: 1px, @content: '') {
+  content: @content;
+  position: absolute;
+  width: @width;
+  height: @height;
+  display: block;
+}
+.background-position-to-2(@position-1, @position-2 ) {
+  background-position: @position-1, @position-2 !important;
+}
+
+
+
+
+.transition(@what: all, @time: 0.4s) {
+  -webkit-transition: @what @time;
+  -moz-transition: @what @time;
+  -ms-transition: @what @time;
+  -o-transition: @what @time;
+  transition: @what @time;
+}
+.transition-more(@what, @time, @what-2, @time-2) {
+  -webkit-transition: @what @time, @what-2 @time-2;
+  -moz-transition: @what @time, @what-2 @time-2;
+  -ms-transition: @what @time, @what-2 @time-2;
+  -o-transition: @what @time, @what-2 @time-2;
+  transition: @what @time, @what-2 @time-2;
+
+}
+.align(@align: center) {
+  text-align: @align;
+}
+.no-link(@color: @lightblack) {
+  text-decoration: none;
+  color: @color;
+  cursor: auto;
+}
+
+.radius(@border-radius: 50%) {
+  -moz-border-radius: @border-radius;
+  -webkit-border-radius: @border-radius;
+  border-radius: @border-radius;
+}
+.a-height(@min-height, @max-height) {
+  min-height: @min-height;
+  max-height: @max-height;
+  height: auto;
+}
+.input-style(@width: 60%, @border-color: @white, @color: @white, @font-family: @proximaNovaLight, @font-size: @base-size-text) {
+
+  border: 1px solid @border-color;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  width: @width;
+  color: @color;
+  font-family: @font-family;
+  font-size: @font-size;
+  display: inline-block;
+  background: transparent;
+  .transition();
+}
+.input-hov(@back: @white, @color: @color-base) {
+  background: @back;
+  color: @color;
+}
+
+.section-capt(@image: url('../img/line.png')) {
+  font-size: @extra-large-text;
+  font-family: @unisanscaps;
+  color: @color-base;
+  text-transform: uppercase;
+  background: @image no-repeat 0 center,
+  @image no-repeat 100% center;
+  margin-top: 30px !important;
+  margin-bottom: 50px !important;
+  .align();
+  display: inline-block;
+  padding: 0 100px;
+
+
+}
+.section-capt-991(@image-ad: url('../img/line.png')) {
+  font-size: @extra-large-text;
+  font-family: @unisanscaps;
+  color: @color-base;
+  text-transform: uppercase;
+  background: @image-ad no-repeat 22% center,
+  @image-ad no-repeat 78% center;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  font-size: @base-margin-nav;
+  .align();
+}
+.box-shadow(@x, @y, @blur, @lenght, @color) {
+  -web-kit-box-shadow: @arguments;
+  box-shadow: @arguments;
+}
+.border-clear(@margin-y: margin-bottom, @margin-x: margin-left) {
+  margin-bottom: -1px;
+  margin-left: -1px;
+}
+.pagination-style() {
+  border: none;
+  color: @black;
+  font-family: @proximonovasembold;
+  background: transparent;
+  border-radius: 0;
+
+}
+
+.background-icon-custom(@url-cust) {
+  .background-icon(@url-cust, 19%, 25%, @lightgray)
+}

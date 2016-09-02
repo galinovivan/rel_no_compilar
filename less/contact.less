@@ -1,0 +1,149 @@
+@import-once "varible.less";
+@import-once "mixin.less";
+
+
+
+.contact-main {
+
+.padding-margin-clear();
+	margin-top: 210px; 
+	h1 {
+		position: relative;
+		.align();
+		margin-bottom: 75px;
+		color: @color-base;
+	
+	
+
+	}
+	.contact-block {
+		background: @medium-black;
+		position: absolute;
+		z-index: 100000;
+		height: 250px;
+		color: @white;
+		.row {
+			padding: 60px 20px;
+
+			
+
+			div {
+               .padding-margin-clear();
+               .flex-align-bottom(center, center);
+               height: 100%;
+               flex-direction: column;
+               font-family: @ProximaNovaRegular;
+               font-size: @base-size-text;
+
+
+
+			  img {
+				margin-bottom: 25px;
+			  }
+
+               }
+
+
+			}
+		}
+  .thin-block {
+	p {
+	  font-size: 22px;
+	  font-family: @ProximaNovaRegular;
+	  strong {
+		font-family: @proxithin;
+		font-weight: 100;
+
+	  }
+	}
+  }
+	}
+
+#map {
+	height: 750px;
+}
+.contact-form {
+    .padding-margin-clear();
+    .align();
+.form-block {
+	position: relative;
+	margin: 0 auto;
+	width: 66.66%;
+	height: 650px;
+
+
+}
+    .row {
+         border-bottom: 1px solid @bord-color; 
+    	.padding-margin-clear();
+    	height: 540px;
+    	form {
+    		background: @color-base;
+    		width: 100%;
+    		margin: 0 auto;
+    		height: 650px;
+    		padding: 70px 0;
+    		.align();
+    		position: absolute;
+    		top: -110px;
+
+    		h2 {
+    			font-family: @unisanscaps;
+    			color: @white;
+    			margin-bottom: 80px;
+
+    		}
+    		input:not([type="submit"]),
+    		textarea {
+    			.input-style();
+    			margin-bottom: 50px;
+    			color: @white;
+
+    		}
+    		textarea {
+    			margin: 0 auto;
+    			margin-bottom: 70px;
+    			display: block;
+
+    		}
+    		input[type="submit"] {
+    			.btn-style();
+    			margin: 0 auto;
+    			&:hover {
+    				.btn-hover(@color-base, @white);
+    			}
+    		}
+    		input::-webkit-input-placeholder
+
+    		
+    		 {
+    			color: @white;
+    		}
+    		textarea::-webkit-input-placeholder {
+    			color: @white;
+    		}
+    		input::-moz-placeholder {
+    			color: @white;
+    		}
+    		input:-moz-placeholder {
+    			color: @white;
+    		}
+    		input:-ms-input-placeholder {
+    			color: @white;
+    		} 
+    	}
+    }
+
+}
+
+.foot {
+  margin-top: 50px !important;
+  padding-top: 50px !important;
+}
+
+
+
+
+
+
+

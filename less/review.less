@@ -1,0 +1,44 @@
+@import-once "varible.less";
+@import-once "mixin.less";
+
+.review-main {
+	.col-xs-12 {
+		border-bottom: 1px solid @white-gray;
+		padding-bottom: 60px;
+		padding-top: 100px;
+		margin-bottom: 150px;
+		.background-icon(url('../img/black-chars.png'), 50%, 0%, transparent);
+
+	}
+.review-content {
+	p {
+		.align();
+		font-family: @ProximaNovaRegular;
+		line-height: 1.7;
+
+		&:first-child {
+
+			padding: 0 15%;
+
+		}
+		&:last-child {
+			padding: 0 20%;
+		}
+	}
+
+}
+ 
+.person {
+	hr {
+		border-top-color: @black;
+		width: 150px;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	}
+	.align();
+	img {
+		display: block;
+		margin: 0 auto;
+	}
+}
+}
