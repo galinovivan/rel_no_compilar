@@ -157,13 +157,17 @@
   text-align: center;
 }
 .ser-text-content p:first-child {
-  padding: 0 15%;
+  padding: 0 10%;
   font-family: 'proximareg';
   margin-bottom: 50px;
+  font-size: 20px;
+  font-weight: bold;
 }
 .ser-text-content p:nth-child(2) {
-  padding: 0 30%;
-  font-family: 'proximareg';
+  padding: 0 20%;
+  font-family: 'proximanovalight';
+  font-size: 20px;
+  font-weight: bold;
 }
 .services-block .row div {
   min-height: 265px;
