@@ -199,13 +199,16 @@
     max-height: 800px;
     height: auto;
   }
-  .main .left-main-block a div {
+   .left-main-block a div {
     background-position: 10% 45% !important;
     justify-content: center;
     align-items: center;
     padding: 0;
     margin: 0;
   }
+   .main-services .left-main-block a div {
+     min-height: 150px;
+   }
   .gallery {
     padding: 0;
     margin: 0;
@@ -389,10 +392,20 @@
     border-right: 1px solid transparent;
   }
 }
+@media screen and (max-width: 600px) {
+  .main-services .left-main-block a div {
+    background-position: 10% 45% !important;
+  }
+}
 @media screen and (max-width: 500px) {
   .review #reviewCarousel-2 {
     padding: 0 5%;
     font-size: 12.8px;
+  }
+}
+@media screen and (max-width: 490px) {
+  .main-services .left-main-block a div {
+    width: 100%;
   }
 }
 @media screen and (max-width: 440px) {

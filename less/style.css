@@ -53,7 +53,7 @@
 }
 .news-content div.col-md-6 {
   border: 1px solid #ebebeb;
-  padding: 75px 5%;
+  padding: 50px 5%;
   margin-bottom: -1px;
   margin-left: -1px;
   min-height: 450px;
@@ -127,8 +127,9 @@
 }
 .review-main .review-content p {
   text-align: center;
-  font-family: 'proximareg';
+  font-family: 'uni_italic';
   line-height: 1.7;
+  font-weight: bold;
 }
 .review-main .review-content p:first-child {
   padding: 0 15%;
@@ -704,7 +705,7 @@ header.main-header .contacts li:last-child {
 }
 .adventage .row {
   background: #282828;
-  padding: 100px 0;
+  padding: 120px 0;
   margin: 0;
 }
 .adventage .row div {
@@ -883,6 +884,7 @@ footer {
   text-transform: uppercase;
   font-family: 'proximareg';
   margin: 100px 0;
+  border-top: 1px solid #dcdcdc;
 }
 footer .row {
   padding: 0;
@@ -1013,6 +1015,7 @@ footer .row div {
   font-family: 'unisanscaps';
   color: #ffffff;
   margin-bottom: 80px;
+  font-size: 35px;
 }
 .contact-form .row form input:not([type="submit"]),
 .contact-form .row form textarea {
@@ -1032,6 +1035,7 @@ footer .row div {
   transition: all 0.4s;
   margin-bottom: 50px;
   color: #ffffff;
+  padding-bottom: 15px;
 }
 .contact-form .row form textarea {
   margin: 0 auto;
@@ -1042,7 +1046,7 @@ footer .row div {
   display: block;
   padding: 10px 10px;
   border: 1px solid #ffffff;
-  font-size: 13px;
+  font-size: 16px;
   font-family: 'proximabold';
   width: 200px;
   text-align: center;
