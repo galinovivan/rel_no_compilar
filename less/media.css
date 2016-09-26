@@ -193,9 +193,6 @@
   .review-content p:last-child {
     padding: 0 7% !important;
   }
-  .main {
-    margin-bottom: 60px;
-  }
   .main .row .right-main-block {
     position: relative;
     top: auto;
@@ -204,7 +201,7 @@
     height: auto;
   }
   .main .left-main-block a div {
-    background-position: 5% 45% !important;
+    background-position: 10% 45% !important;
     justify-content: center;
     align-items: center;
     padding: 0;
