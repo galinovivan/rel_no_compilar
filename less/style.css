@@ -1145,8 +1145,8 @@ h2 {
   color: #bda67c;
   text-transform: uppercase;
   background: url('../img/line.png') no-repeat 0 center, url('../img/line.png') no-repeat 100% center;
-  margin-top: 30px !important;
-  margin-bottom: 50px !important;
+  margin-top: 10px !important;
+  margin-bottom: 30px !important;
   text-align: center;
   display: inline-block;
   padding: 0 100px;
