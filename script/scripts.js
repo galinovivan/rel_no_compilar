@@ -1,7 +1,3 @@
-
-
-
-
 $(document).ready(function() {
 	var menu = {
 		slideMenu: $('#mobileNav'),
